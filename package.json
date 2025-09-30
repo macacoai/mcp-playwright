@@ -16,7 +16,7 @@
     "email": "gaston@macaco.ai",
     "url": "https://github.com/macacoai"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
     "build": "tsc",
     "lint": "npm run update-readme && eslint . && tsc --noEmit",
