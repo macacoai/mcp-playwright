@@ -1,6 +1,6 @@
 {
   "name": "mcp-macaco-playwright",
-  "version": "0.0.41",
+  "version": "0.0.1",
   "description": "mcp-macaco-playwright - Enhanced Playwright Tools for MCP with CDP Support",
   "type": "module",
   "repository": {
@@ -46,14 +46,14 @@
     "openapi.json"
   ],
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.16.0",
+    "@modelcontextprotocol/sdk": "^1.18.2",
     "commander": "^13.1.0",
     "cors": "^2.8.5",
     "debug": "^4.4.1",
     "dotenv": "^17.2.0",
     "mime": "^4.0.7",
-    "playwright": "1.55.0-alpha-1753913825000",
-    "playwright-core": "1.55.0-alpha-1753913825000",
+    "playwright": "1.55.1",
+    "playwright-core": "1.55.1",
     "ws": "^8.18.1",
     "zod": "^3.24.1",
     "zod-to-json-schema": "^3.24.4"
@@ -62,7 +62,7 @@
     "@anthropic-ai/sdk": "^0.57.0",
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.19.0",
-    "@playwright/test": "1.55.0-alpha-1753913825000",
+    "@playwright/test": "1.55.1",
     "@stylistic/eslint-plugin": "^3.0.1",
     "@types/cors": "^2.8.19",
     "@types/debug": "^4.1.12",
@@ -79,6 +79,6 @@
     "typescript": "^5.8.2"
   },
   "bin": {
-    "ejaz-playwright-mcp": "cli.js"
+    "macacoai-playwright-mcp": "cli.js"
   }
 }
